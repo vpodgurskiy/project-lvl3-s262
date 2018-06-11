@@ -1,7 +1,7 @@
 import pageLoad from '../src';
 
-const resultData = '';
+const result = 'empty';
 
 test('pageLoad empty', () => {
-  expect(pageLoad('')).toBe(resultData);
+  expect(pageLoad()).toBe(result);
 });

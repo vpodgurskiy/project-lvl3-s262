@@ -4,7 +4,7 @@
   "description": "page-loader",
   "main": "dist/index.js",
   "bin": {
-    "page-loader": "dist/bin/page-loader.js"
+    "pageLoader": "dist/bin/pageLoader.js"
   },
   "files": [
     "dist"

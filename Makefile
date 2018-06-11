@@ -20,10 +20,13 @@ test:
 	npm test
 
 debug:
-	npm run babel-node -- src/bin/pageLoader.js
+	npm run babel-node -- src/bin/pageLoader.js testUrl
 
 watch:
 	npm test -- --watch
 
 watchAll:
 	npm test -- --watchAll
+
+test-coverage:
+	npm test -- --coverage
