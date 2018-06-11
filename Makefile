@@ -10,9 +10,6 @@ publish:
 lint:
 	npm run eslint .
 
-check-types:
-	npm run flow
-
 build:
 	npm run-script build
 
