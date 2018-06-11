@@ -1,14 +1,8 @@
-install: instal-deps install-flow
+install:
 	npm install
-
-install-deps:
-	npm install
-
-install-flow:
-	npm run flow-typed install
 
 start:
-	npm run babel-node -- src/bin/page-loader.js
+	npm run babel-node -- src/bin/pageLoader.js
 
 publish:
 	npm publish
@@ -25,11 +19,8 @@ build:
 test:
 	npm test
 
-debug-tree:
-	npm run babel-node -- src/bin/page-loader.js
-
-debug-plain:
-	npm run babel-node -- src/bin/page-loader.js
+debug:
+	npm run babel-node -- src/bin/pageLoader.js
 
 watch:
 	npm test -- --watch
