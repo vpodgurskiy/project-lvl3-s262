@@ -7,11 +7,9 @@ const program = commander;
 
 program
   .version(`${version}`, '-v, --version')
-  .arguments('<url>')
+  .arguments('<uri>')
   .description(`${description}`)
-  .option('-o, --output [type]', 'Output format')
-  .action((url) => {
-    console.log(pageLoad(url));
-  });
+  .option('-o, --output [path]', 'output path')
+  .action(uri => pageLoad(uri, commander.output));
 
 program.parse(process.argv);

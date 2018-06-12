@@ -13,5 +13,5 @@ $ npm install -g vpod_page-loader
 
 ## Help
 ```sh
-$ page-loader -h
+$ pageLoader -h
 ```
